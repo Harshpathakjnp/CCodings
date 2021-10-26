@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1634379162 source:d:\triangletypes\main.c
+	<stdio.h>
+	<stdlib.h>
+

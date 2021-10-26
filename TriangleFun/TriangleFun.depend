@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1635242342 source:d:\trianglefun\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

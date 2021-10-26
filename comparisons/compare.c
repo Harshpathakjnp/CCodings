@@ -1,0 +1,24 @@
+//comparison between two numbers
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a, b c;
+    printf("Enter two numbers to know which is greater");
+    scanf("%d %d %c",&a , &b ,&c);
+    if(a>b & a>c)
+    {
+        max=a;
+    }
+    else if(b>c)
+    {
+        max=b;
+    }
+    else
+    {
+        max=c;
+    }
+    printf("largest number is %d",max);
+    return 0;
+}

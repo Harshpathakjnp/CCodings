@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1634212276 source:d:\watchhour\main.c
+	<stdio.h>
+	<stdlib.h>
+

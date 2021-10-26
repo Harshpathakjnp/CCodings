@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1634446955 source:d:\switchcaseproblem\main.c
+	<stdio.h>
+	<stdlib.h>
+

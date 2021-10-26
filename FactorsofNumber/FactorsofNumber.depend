@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1634995192 source:d:\factorsofnumber\main.c
+	<stdio.h>
+	<stdlib.h>
+

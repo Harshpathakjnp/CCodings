@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1634550885 source:d:\whileloop\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1634551337 source:d:\whileloop\src\evennumbers.cpp
+	<stdio.h>
+

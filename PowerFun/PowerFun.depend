@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1635240643 source:d:\powerfun\main.c
+	<stdio.h>
+	<stdlib.h>
+

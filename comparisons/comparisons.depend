@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1634126110 source:d:\comparisons\main.c
+	<stdio.h>
+	<stdlib.h>
+

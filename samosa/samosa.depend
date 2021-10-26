@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1634130423 source:d:\samosa\main.c
+	<stdio.h>
+	<stdlib.h>
+
