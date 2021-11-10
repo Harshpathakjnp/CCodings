@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1636459601 source:d:\ccodings\secondmax\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -12,7 +12,7 @@ int monthNames(int m);
 int printingCalender(int month,int year);
 int main()
 {
-    int year = 2003;
+    int year = 2022s;
     for(int m=1;m<=12;m++)
     {
  printingCalender(m,year);

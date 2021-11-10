@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1636462158 source:d:\ccodings\secondminima\main.c
+	<stdio.h>
+	<stdlib.h>
+
