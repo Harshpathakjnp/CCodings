@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1636701519 source:d:\ccodings\gradebca\main.c
+	<stdio.h>
+	<stdlib.h>
+

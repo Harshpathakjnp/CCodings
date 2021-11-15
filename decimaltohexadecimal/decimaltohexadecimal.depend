@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1636810775 source:d:\ccodings\decimaltohexadecimal\main.c
+	<stdio.h>
+	<stdlib.h>
+

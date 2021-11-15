@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1636802366 source:d:\ccodings\pythagorastheorem\main.c
+	<stdio.h>
+	<stdlib.h>
+

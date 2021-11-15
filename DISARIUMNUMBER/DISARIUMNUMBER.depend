@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1636799552 source:d:\ccodings\disariumnumber\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
