@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1638365497 source:d:\ccodings\incredecree\main.c
+	<stdio.h>
+	<stdlib.h>
+

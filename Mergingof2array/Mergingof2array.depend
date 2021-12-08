@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1637233880 source:d:\ccodings\mergingof2array\main.c
+	<stdio.h>
+	<stdlib.h>
+

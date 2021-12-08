@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1637580775 source:d:\ccodings\minheapshirt\main.c
+	<stdio.h>
+	<stdlib.h>
+

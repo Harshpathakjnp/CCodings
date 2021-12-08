@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1638014375 source:d:\ccodings\printingstars\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 int main()
 {
    int a[]={10,19,25,15};
@@ -16,8 +15,8 @@ int main()
            a[j]=a[j-1];
            j--;
        }
-       a[j]=t;
    }
+       a[j]=t;
    for(i=0;i<=n-1;i++)
    printf("%d ",a[i]);
 }

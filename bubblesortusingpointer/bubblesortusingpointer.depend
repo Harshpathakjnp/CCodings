@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1637748948 source:d:\ccodings\bubblesortusingpointer\main.c
+	<stdio.h>
+	<stdlib.h>
+

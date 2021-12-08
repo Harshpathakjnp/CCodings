@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1637740160 source:d:\ccodings\fuctionfordouble\main.c
+	<stdio.h>
+	<stdlib.h>
+

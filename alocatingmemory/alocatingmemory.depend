@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1638189907 source:d:\ccodings\alocatingmemory\main.c
+	<stdio.h>
+	<stdlib.h>
+
