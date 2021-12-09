@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1639051188 source:d:\ccodings\expressionstack\main.c
+	<stdio.h>
+	<stdlib.h>
+

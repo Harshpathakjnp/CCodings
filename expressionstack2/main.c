@@ -11,26 +11,31 @@ int pop(stack* st);
 int isEmpty(stack st);
 int main()
 {
-    int i;
-    stack s1,s2;
-    init(&s1);
-    init(&s2);
-    for(i=1;i<=10;i++)
+    stack s;
+    char exp[]="(a+b(c-d)+ (a+b))";
+    int n=sizeof(exp)/sizeof(char),i;
+    int pos,j;
+    char ch;
+    init(&s);
+
+
+
+    for(i=0;i<=n-2;i++)
     {
-        if(i % 2==0)
-            push(&s1,i);
-        else
-            push(&s2,i);
+        ch=exp[i];
+        if(ch=='(')
+            push(&s,i);
+        if(ch==')')
+        {
+            pos=pop(&s);
+            printf("\n%d to %d\n",pos,i);
+            for(j=pos;j<=i;j++)
+                printf("%c",exp[j]);
+            printf("\n");
+
+        }
     }
-    while(!isEmpty(s1))
-    {
-        printf("%d,",pop(&s1));
-    }
-    printf("\n");
-    while(!isEmpty(s2))
-    {
-        printf("%d,",pop(&s2));
-    }
+
 
 
     return 0;
