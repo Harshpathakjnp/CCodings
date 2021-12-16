@@ -5,9 +5,15 @@ typedef struct{
 int a[10];
 int top;
 }stack;
+
+
+
 void init(stack* st);
 void push(stack* st,int data);
 int pop(stack* st);
+void enque(int value);
+int deque();
+int count =0;
 int isEmpty(stack st);
 int main()
 {
@@ -69,3 +75,33 @@ int isEmpty(stack st)
     else
         return 0;
 }
+
+
+
+void enque(int value)
+{
+    if(count>=10)
+    {
+        printf("Queue is Full ");
+        return;
+    }
+    queue[back]=value;
+    back=(back + 1) % n;
+    count++;
+}
+
+
+int deque()
+{
+    int x;
+    if(count<=0)
+    {
+    printf("Queue is empty\n");
+    return -1;
+    }
+    x=queue[front];
+    front=(front + 1) % n;
+    count--;
+    return x;
+}
+
