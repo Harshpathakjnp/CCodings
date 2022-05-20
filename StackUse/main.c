@@ -11,8 +11,10 @@ int main()
 {
     int i;
     for(i=1;i<=8;i++)
-        push(i);
+    {
 
+        push(i);
+    }
     while(!isEmpty())
         printf("%d,",pop());
     return 0;
@@ -47,20 +49,5 @@ int isEmpty()
 }
 
 
-int pop()
-{
-    if(top<=0)
-    {
-        printf("Stack is empty");
-        return -1;
-    }
-    top--;
-    return stack[top];
 
-}
-int isEmpty()
-{
-    return top<=0;
-
-}
 

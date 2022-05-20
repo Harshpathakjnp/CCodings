@@ -11,11 +11,13 @@ void init(queue* q);
 void enque(queue* q ,int data);
 int deque(queue* q);
 int isEmpty(queue q);
+void display();
 int main()
 {
 queue q1,q2;
 int i,x,choice;
 init(&q1);
+/*
 while(1)
 {
     printf("\n0- Exit\n1- Enque\n2- Deque\n3- Printall\n\nEnter your Choice :");
@@ -39,10 +41,27 @@ case 2:
        printf("\n%d\n",x);
         break;
     }
+case 3:
+    {
+
+    }
 
 
 }
 }
+*/
+enque(&q1,1);
+enque(&q1,2);
+enque(&q1,3);
+enque(&q1,4);
+
+while(!isEmpty(q1))
+{
+
+    printf("%d,",deque(&q1));
+}
+
+return 0;
 }
 
 
@@ -86,4 +105,15 @@ void init(queue* q)
     q->back=0;
     q->count=0;
     q->front=0;
+}
+
+
+void display()
+{
+    /*
+int i;
+for(i = (q->front); i <= q->back; i++)
+printf("%d ", data[i]);
+printf("n");
+*/
 }
