@@ -1,19 +1,27 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int i,j,space,n=4,m;
-    for(i=0;i<=n;i++)
+    int i,j,n,count=0,a[1000];
+    printf("Enter the size of Array : ");
+    scanf("%d",&n);
+    printf("Enter the Elements Suraj : ");
+    for(i=0;i<n;i++)
     {
-        for(space=0;space<=n-i;space++)
-        {
-            printf(" ");
-        }
-        m=1;
-        for(j=0;j<=i;j++)
-        {
-            printf(" %d",m);
-            m=m*(i-j)/(j+1);
-        }
-        printf("\n");
+        scanf("%d",&a[i]);
     }
+    for (i = 0; i < n; i++)
+    {
+        for (j = 0; j < n; j++)
+        {
+            if (a[i] == a[j] && i != j)
+                break;
+        }
+        if (j == n)
+        {
+            ++count;
+            
+            
+        }
+    }
+    printf("%d,", count);
 }
