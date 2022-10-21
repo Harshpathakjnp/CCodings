@@ -4,7 +4,7 @@
 int main()
 {
    int a,b,c ,count=0;
-   printf("Enter sides of triangle");
+   printf("Enter sides of triangle  .... ");
    scanf("%d %d %d",&a, &b , &c);
    (a==b)? count++ :count;
    (a==c)? count++ :count;
